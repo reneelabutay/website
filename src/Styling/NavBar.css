@@ -1,15 +1,16 @@
 .header-bar {
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
   min-height: 100px;
-  background-color: #f0e4d8;
+  /*background-color: #f0e4d8;*/
+  background-color: #f9f9f9;
   align-items: center;
 }
 
-
-/*sticky*/
+/********************************/
+/***  Title (left hand side)  ***/
+/********************************/
 .title {
-  position: fixed;
   text-align: center;
 }
 .title > p {
@@ -17,8 +18,30 @@
   font-size: 20px;
 }
 
+/************************/
+/***  Nav links menu  ***/
+/************************/
+.nav-links {
+	display: flex;
+	justify-content: flex-end;
+  width: 40%;
+  padding-right: none;
+}
+.nav-links li {
+	list-style: none;
+}
 
-/* BURGER MENU */
+.nav-links a {
+	text-decoration: none;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*********************/
+/***  BURGER MENU  ***/
+/*********************/
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -84,24 +107,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: inline-block;
 }
 
-a {
-  padding: 12px;
-  cursor: pointer;
-}
-
 /* Styling of overlay */
 .bm-overlay {
   background: white !important;
   opacity: 0 !important;
 }
-/* Position and sizing of burger button */
-/*
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+/*links in the burger menu*/
+a {
+  padding: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
 
-   
-  /* Styling of overlay 
- 
-  } */
   
