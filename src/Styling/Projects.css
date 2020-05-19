@@ -1,0 +1,30 @@
+.project-row {
+	display: block;
+	clear:both;
+	text-align: center;
+}
+
+.project-item {
+	display: inline-block;
+	width: 45%;
+	margin:20px;
+	background-color: #f6f5f0;
+	box-shadow:10px 10px 10px grey;
+}
+
+/*Project Description*/
+.project-item p {
+	padding: 25px;
+	padding-top:0px;
+	text-align: left;
+	background-color: white;
+
+}
+
+.project-item h3 {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: white;
+	
+}

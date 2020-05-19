@@ -11,7 +11,7 @@ export class NavBar extends Component {
           <div className="title">
             <p>Renee Labutay</p>
           </div>
-          <div classNam="navigation-menu">
+          <div className="navigation-menu">
             <Menu right>
               <a className="home">Home</a>
               <a className="about-me">About</a>
@@ -24,5 +24,4 @@ export class NavBar extends Component {
       );
     }
   }
-  
   export default NavBar;
