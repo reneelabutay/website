@@ -45,8 +45,10 @@ export class NavBar extends Component {
     let navlinks;
     if (showBurger) {
       console.log("burger is visible")
-      navlinks = <BurgerMenu/>
+      // navlinks = <BurgerMenu/>
+      navlinks = <NavLinks/>
     } else  {
+      console.log("no burger")
       navlinks = <NavLinks/>
     }
     
@@ -62,5 +64,5 @@ export class NavBar extends Component {
       
     );
   }
-  }
-  export default NavBar;
+}
+export default NavBar;

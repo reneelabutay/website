@@ -11,7 +11,7 @@ export class Home extends Component {
             <div className="right-side">
                 <div className="welcome-text">
                     <p id="hello">Hello.</p>
-                    <p id="intro">I'm a developer who's passionate about design and social good.</p>
+                    <p id="intro">I'm a developer who's passionate about design, food, and social good.</p>
                 </div>
                 <div className="external-links">
                     <a href="https://www.linkedin.com/in/reneelabutay">

@@ -3,6 +3,7 @@ import './App.css';
 import './Styling/NavBar.css';
 import './Styling/Home.css';
 import './Styling/Projects.css';
+import './Styling/Resume.css';
 import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import Home from './Components/Home';

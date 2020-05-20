@@ -1,0 +1,57 @@
+.resume-page {
+    background-color: #dfe4e6;
+}
+
+.resume-section-header h2{
+    font-family: 'Libre Franklin';
+    font-size: 18px;
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 30px 0;
+}
+.resume-content p{
+    font-size: 15px;
+}
+.resume-item {
+    padding-top:24px;
+    padding-bottom: 24px;
+}
+.resume-item-title {
+    display:flex;
+    justify-content: space-between;
+}
+.resume-item-title > .item-role-company > p {
+    text-transform: uppercase;
+    font-weight: 600; 
+}
+.resume-item-title > .item-date-location {
+    padding-left:48px;
+    text-align: right;
+}
+
+#coursework > h2 {
+    padding-top: 24px;
+    padding-bottom: 12px;;
+    font-weight: 600;
+}
+.resume-description {
+    padding-top: 8px;;
+}
+.resume-description > ul {
+    margin-left: 24px;
+}
+
+.skills-container {
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.skills-container div {
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px dashed blue;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+}

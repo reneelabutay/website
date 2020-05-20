@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 * {
 	margin: 0px;
@@ -14,20 +15,22 @@
 .section-content {
 	margin-top: 5%;
 	margin-bottom: 5%;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 8%;
+	margin-right: 8%;
 } 
 
 .section-header {
-	
 	display: flex;
   	justify-content: center; 
   	align-items: center;
 	height: 100px;
-	background: #e9e3de;
+	background: white;
 	margin-bottom: 48px;
 	text-transform: uppercase;
+	border-top: 1px solid #dfdfe5;
+	border-bottom: 1px solid #dfdfe5;
 }
+
 .section-header p {
 	text-transform: uppercase;
 	font-weight:300;
@@ -35,6 +38,8 @@
 	letter-spacing: 2px;
 	font-size: 18px;
 }
+
 .page-content {
 	margin-bottom: 64px;
+	background: white;
 }
