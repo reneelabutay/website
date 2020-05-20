@@ -1,11 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;400;500;600;700&display=swap');
 
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	font-family: 'Libre Franklin';
+	font-family: 'Open Sans';
 	font-weight: 200;
 	font-size: 16px;
 	line-height: 150%;
+}
+
+.section-content {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+} 
+
+.section-header {
+	
+	display: flex;
+  	justify-content: center; 
+  	align-items: center;
+	height: 100px;
+	background: #e9e3de;
+	margin-bottom: 48px;
+	text-transform: uppercase;
+}
+.section-header p {
+	text-transform: uppercase;
+	font-weight:300;
+	font-family: 'Libre Franklin';
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.page-content {
+	margin-bottom: 64px;
 }

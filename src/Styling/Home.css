@@ -1,0 +1,47 @@
+.home-body {
+    display: flex;
+    justify-content: space-between;
+    height: 878px;
+    align-content: stretch;
+}
+.left-side {
+    width: 50%;
+    /*background: #f0e4d8;*/
+    background: #e2e2db;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-side img {
+    max-width: 60%;
+    height:auto;
+}
+.right-side {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex-flow: column wrap;
+}
+
+.welcome-text {
+    position: relative;
+    padding: 0 64px 0 32px;
+}
+.welcome-text #hello {
+    font-size: 100px;
+    font-family: 'Libre Franklin';
+    font-weight: 600;
+}
+.welcome-text #intro {
+    font-size: 28px;
+    font-weight: 300;
+}
+.external-links{
+    padding: 24px 40px;
+}
+.external-links img {
+    max-width: 80px;
+    max-height: 80px;
+    padding-right: 40px;
+}

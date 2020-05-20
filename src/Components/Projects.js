@@ -4,11 +4,15 @@ export class Projects extends Component {
 
     render () {
       return (
-        <div className="projects-body">
+        <div>
+            <div className="section-header">
+                <p>Projects</p>
+            </div>
+            <div className="section-content">
             <div className="project-row">
                 <div className="project-item">
                     <a href="https://github.com/reneelabutay/CS165_AI_Pacman">
-                        
+                        <img src="https://img.icons8.com/cotton/200/000000/pacman.png" alt="pacman"/>
                     </a>
                     <h3>Pacman AI</h3>
                     <p>
@@ -21,7 +25,7 @@ export class Projects extends Component {
                 
                 <div className="project-item">
                     <a href="https://github.com/reneelabutay/CS130a_prog1">
-                        
+                        <img src={require("../Images/ds.png")} alt="data structure"></img>
                     </a> 
                     <h3>Quash</h3>
                     <p>
@@ -30,6 +34,7 @@ export class Projects extends Component {
                         Supported insert, delete, and lookup functions.
                     </p>
                 </div>
+            </div>
             </div>
         </div>
         

@@ -1,15 +1,24 @@
+
+
 .project-row {
-	display: block;
-	clear:both;
+	display:flex;
+	justify-content: center;
 	text-align: center;
 }
 
 .project-item {
 	display: inline-block;
-	width: 45%;
+	width: 400px;
+	height: 400px;
 	margin:20px;
 	background-color: #f6f5f0;
 	box-shadow:10px 10px 10px grey;
+}
+@media screen and (max-width: 880px) {
+	.project-row {
+		flex-direction: column;
+		flex-flow: column wrap;
+	}
 }
 
 /*Project Description*/
@@ -18,7 +27,6 @@
 	padding-top:0px;
 	text-align: left;
 	background-color: white;
-
 }
 
 .project-item h3 {
