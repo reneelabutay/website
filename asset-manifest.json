@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reneelabutay.github.io/static/css/main.76573b5a.chunk.css",
+    "main.js": "/reneelabutay.github.io/static/js/main.402cb511.chunk.js",
+    "main.js.map": "/reneelabutay.github.io/static/js/main.402cb511.chunk.js.map",
+    "runtime-main.js": "/reneelabutay.github.io/static/js/runtime-main.6be38e87.js",
+    "runtime-main.js.map": "/reneelabutay.github.io/static/js/runtime-main.6be38e87.js.map",
+    "static/js/2.3c9c0e7d.chunk.js": "/reneelabutay.github.io/static/js/2.3c9c0e7d.chunk.js",
+    "static/js/2.3c9c0e7d.chunk.js.map": "/reneelabutay.github.io/static/js/2.3c9c0e7d.chunk.js.map",
+    "index.html": "/reneelabutay.github.io/index.html",
+    "precache-manifest.9d3e4e691d25d4de8222dbd93ce094ea.js": "/reneelabutay.github.io/precache-manifest.9d3e4e691d25d4de8222dbd93ce094ea.js",
+    "service-worker.js": "/reneelabutay.github.io/service-worker.js",
+    "static/css/main.76573b5a.chunk.css.map": "/reneelabutay.github.io/static/css/main.76573b5a.chunk.css.map",
+    "static/js/2.3c9c0e7d.chunk.js.LICENSE.txt": "/reneelabutay.github.io/static/js/2.3c9c0e7d.chunk.js.LICENSE.txt",
+    "static/media/self.png": "/reneelabutay.github.io/static/media/self.ec28e305.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6be38e87.js",
+    "static/js/2.3c9c0e7d.chunk.js",
+    "static/css/main.76573b5a.chunk.css",
+    "static/js/main.402cb511.chunk.js"
+  ]
+}
