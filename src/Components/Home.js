@@ -5,8 +5,10 @@ export class Home extends Component {
     render () {
       return (
         <div className="home-body">
+
             <div className="left-side">
                 <img src={require("../Images/self.png")} alt="self"></img>
+                <div className='resume-section-spacer'></div>
             </div>
             <div className="right-side">
                 <div className="welcome-text">
@@ -22,6 +24,7 @@ export class Home extends Component {
                     </a>
                 </div>
             </div>
+            
         </div>
         
       );

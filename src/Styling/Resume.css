@@ -1,7 +1,20 @@
 .resume-page {
     background-color: #dfe4e6;
 }
-
+#resume-section-spacer {
+    display:flex;
+}
+.section-spacer-left {
+    width: 50%;
+    background: #e2e2db;
+}
+.section-spacer-right {
+    width: 50%;
+    background: white;
+}
+#resume-section-header {
+    background-color: #dfe4e6;
+}
 .resume-section-header h2{
     font-family: 'Libre Franklin';
     font-size: 18px;
@@ -11,7 +24,7 @@
     padding: 30px 0;
 }
 .resume-content p{
-    font-size: 15px;
+    font-size: 18px;
 }
 .resume-item {
     padding-top:24px;
@@ -47,11 +60,12 @@
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+
 .skills-container div {
     font-size: 15px;
     margin: 5px;
     padding: 5px;
-    border: 1px dashed blue;
+    border: 1px solid #cca085; 
     border-radius: 5px;
     font-family: 'Montserrat';
 }

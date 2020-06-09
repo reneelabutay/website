@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import BurgerMenu from './BurgerMenu';
 import NavLinks from './NavLinks';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 export class NavBar extends Component {
   constructor(props) {

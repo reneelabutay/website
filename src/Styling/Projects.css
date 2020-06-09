@@ -1,4 +1,11 @@
+#project-section-header {
+	background-color: #eee;
+}
 
+
+.projects-page {
+	background-color: #eee;
+}
 
 .project-row {
 	display:flex;

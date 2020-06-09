@@ -5,7 +5,11 @@ export class Resume extends Component {
     render () {
       return (
         <div className="resume-page">
-            <div className="section-header">
+            <div className="section-spacer" id="resume-section-spacer">
+              <div className="section-spacer-left"></div>
+              <div className="section-spacer-right"></div>
+            </div>
+            <div className="section-header" id="resume-section-header">
                 <p>Resume</p>
             </div>
             <div className="section-content"> 
@@ -271,10 +275,8 @@ export class Resume extends Component {
                     </div>
                     
                   </div>  
-                
-
-                
             </div>
+            <div className="section-spacer" id="project-section-spacer"></div>
         </div>
       );
     }

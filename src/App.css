@@ -13,22 +13,24 @@
 }
 
 .section-content {
-	margin-top: 5%;
-	margin-bottom: 5%;
 	margin-left: 8%;
 	margin-right: 8%;
-} 
+	/*padding-bottom: 48px;*/
+} 	
 
 .section-header {
 	display: flex;
   	justify-content: center; 
   	align-items: center;
-	height: 100px;
-	background: white;
-	margin-bottom: 48px;
+	height: 120px;
+	background: pink;
+	/*margin-bottom: 48px;*/
 	text-transform: uppercase;
-	border-top: 1px solid #dfdfe5;
-	border-bottom: 1px solid #dfdfe5;
+	/*border-top: 1px solid #dfdfe5;
+	border-bottom: 1px solid #dfdfe5;*/
+}
+.section-spacer {
+	height: 100px;
 }
 
 .section-header p {
@@ -40,6 +42,6 @@
 }
 
 .page-content {
-	margin-bottom: 64px;
+	/*margin-bottom: 64px;*/
 	background: white;
 }
