@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://kit.fontawesome.com/a1fdc9fb5b.js');
 
 * {
 	margin: 0px;
@@ -13,8 +14,8 @@
 }
 
 .section-content {
-	margin-left: 8%;
-	margin-right: 8%;
+	margin-left: 18%;
+	margin-right: 18%;
 	/*padding-bottom: 48px;*/
 } 	
 

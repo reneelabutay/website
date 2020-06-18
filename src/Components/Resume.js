@@ -5,12 +5,12 @@ export class Resume extends Component {
     render () {
       return (
         <div className="resume-page">
-            <div className="section-spacer" id="resume-section-spacer">
+            <div className="section-spacer" id="experience-section-spacer">
               <div className="section-spacer-left"></div>
               <div className="section-spacer-right"></div>
             </div>
             <div className="section-header" id="resume-section-header">
-                <p>Resume</p>
+                <p>Experience</p>
             </div>
             <div className="section-content"> 
                   <div className="resume-section" id="education">
@@ -69,17 +69,17 @@ export class Resume extends Component {
                           </div>
                         </div>
                         <div className="resume-description">
-                          <ul>
-                            <li>
                               <p>Acquire new sponsors for fraternity events and increase 
-                                fraternity exposure on campus.</p>
-                            </li>
-                            <li><p>Augment social media outreach by 200% by directing 
-                              traffic from sponsor’s accounts and use of trends.</p></li>
-                            <li><p>Lead a cross-functional team to secure partnerships 
+                                fraternity exposure on campus. Improve social media outreach by 200% 
+                                by directing traffic from sponsor’s accounts and use of trends. 
+                                Lead a cross-functional team to secure partnerships 
                               with local businesses and organize 12 fundraisers, generating a $3,500
-                              profit in 8 weeks.</p></li>
-                          </ul>
+                              profit in 8 weeks.</p>
+                        </div>
+                        <div className="skills-container">
+                          <div>Public Speaking</div>
+                          <div>Team Management</div>
+                          <div>Social Media</div>
                         </div>
                       </div>
                       <div className="resume-item" id="ask">
@@ -96,13 +96,8 @@ export class Resume extends Component {
                           </div>
                         </div>
                         <div className="resume-description">
-                          <ul>
-                            <li>
-                              <p>Designed graphics for various fundraisers and sisterhood events.</p>
-                            </li>
-                            <li><p>Managed social media platforms and organized advertising plans
-                              that increased exposure and fundraising profits by 50% and 20%, respectively.</p></li>
-                          </ul>
+                              <p>Designed graphics for sisterhood events and managed social media platforms 
+                              that increased exposure and fundraising profits by 50% and 20%, respectively.</p>
                         </div>
                       </div>
                       <div className="resume-item" id="ask">
@@ -119,16 +114,11 @@ export class Resume extends Component {
                           </div>
                         </div>
                         <div className="resume-description">
-                          <ul>
-                            <li>
-                              <p>Competed against ACRA teams across the United States.</p>
-                            </li>
-                            <li><p>Attended practice at 5 AM Monday through Saturday and 
-                              completed over 780 hours of committed training.</p></li>
-                          </ul>
+                              <p>Competed against ACRA teams across the United States.
+                           Attended practice at 5 AM Monday through Saturday and 
+                              completed over 780 hours of committed training.</p>
                         </div>
                       </div>
-
                     </div>
                   </div>
                   <div className="resume-section" id="work-experience">
@@ -143,7 +133,6 @@ export class Resume extends Component {
                             <div>
                               <p>UCSB Enterprise Technology Services</p>
                             </div>
-                            
                           </div>
                           <div className="item-date-location">
                             <p>October 2019 - Present</p>
@@ -151,18 +140,16 @@ export class Resume extends Component {
                           </div>
                         </div>
                         <div className="resume-description">
-                          <ul>
-                            <li>
                               <p>Provide IT technical support services and account-maintenance tasks 
-                                for 20,000+ end users.</p>
-                            </li>
-                            <li><p>Perform diagnostics and troubleshooting of multiple issues; 
-                              utilize ServiceNow to document help-desk tickets and resolutions.</p></li>
-                            <li><p>Develop automated processes using Google Apps Script.</p></li>
-                            <li><p>Conduct data manipulation through scripting and 
-                              VLOOKUP to identify key metrics; create dashboards in PowerBI that helped
-                                    boost UCSB employee training compliance by 15%.</p></li>
-                          </ul>
+                                for 20,000+ end users. Develop automated processes using Google Apps Script 
+                                and compiled data into PowerBI dashboards.
+                            </p>
+                        </div>
+                        <div className="skills-container">
+                          <div>Google Apps Script</div>
+                          <div>Microsoft Excel</div>
+                          <div>Power BI</div>
+                          <div>Amazon Web Services</div>
                         </div>
                       </div>
                       <div className="resume-item" id="ask">
@@ -172,7 +159,6 @@ export class Resume extends Component {
                             <div>
                               <p>UCSB Gevirtz Graduate School of Education</p>
                             </div>
-                            
                           </div>
                           <div className="item-date-location">
                             <p>December 2017 - June 2018</p>
@@ -180,14 +166,12 @@ export class Resume extends Component {
                           </div>
                         </div>
                         <div className="resume-description">
-                          <ul>
-                            <li>
+
                               <p>Co-developed BlockBased VR, a virtual reality game that reflects fundamental 
-                                coding concepts through visual programming.</p>
-                            </li>
-                            <li><p>Used Blender and Unity to enhance user interface.</p></li>
-                            <li><p>Collaborated in an agile environment to restructure the code into a MVC framework.</p></li>
-                          </ul>
+                                coding concepts through visual programming. Focused on improving game graphics and  
+                                restructuring the code into a MVC framework.
+                              </p>
+                          
                         </div>
                       </div>
                       <div className="resume-item" id="ask">
@@ -205,17 +189,12 @@ export class Resume extends Component {
                           </div>
                         </div>
                         <div className="resume-description">
-                          <ul>
-                            <li><p>The Summer Institute of Math and Science (SIMS) is a selective 2 week program for
-                              freshmen STEM majors at UCSB.</p></li>
-                            <li>
-                              <p>Conducted research in Dr. Irene Chen’s lab on the evolving 
-                                functions of RNA, how riboswitches affect gene expression, and its impact 
-                                on the origin of life.</p>
-                            </li>
-                            <li><p>Participated in accelerated math and science courses and presented
-                              research findings to faculty.</p></li>
-                          </ul>
+                        <p>A selective 2 week program for
+                              freshmen STEM majors at UCSB.
+                              Conducted research in Dr. Irene Chen’s lab on the evolving 
+                              functions of RNA and how riboswitches affect gene expression.
+                              Participated in accelerated math and science courses and presented
+                              research findings to faculty.</p>
                         </div>
                       </div>
                       <div className="resume-item" id="ask">
@@ -233,12 +212,8 @@ export class Resume extends Component {
                           </div>
                         </div>
                         <div className="resume-description">
-                          <ul>
-                            <li>
-                              <p>Provided supplemental math assistance to students from grades K-10.</p>
-                            </li>
-                            <li><p>Assisted in administrative tasks and administered written and oral exams.</p></li>
-                          </ul>
+                              <p>Provided supplemental math assistance to students from grades K-10.
+                            Assisted in administrative tasks and administered written and oral exams.</p>
                         </div>
                       </div>
                     </div>

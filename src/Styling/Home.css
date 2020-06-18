@@ -3,11 +3,14 @@
     justify-content: space-between;
     height: 978px;
     align-content: stretch;
+    background-color: #5c6170 !important;
+    color: white;
 }
 .left-side {
     width: 50%;
     /*background: #f0e4d8;*/
-    background: #e2e2db;
+    /*background: #e2e2db;*/
+    /*background: #a8d0e6;*/
     display:flex;
     align-items: center;
     justify-content: center;
@@ -16,6 +19,7 @@
     max-width: 60%;
     height:auto;
 }
+
 .right-side {
     width:50%;
     display: flex;
@@ -26,21 +30,41 @@
 .welcome-text {
     position: relative;
     padding: 0 64px 0 32px;
+    color: #d8a31a !important;
 }
 .welcome-text #hello {
-    font-size: 100px;
+    font-size: 70px;
     font-family: 'Libre Franklin';
     font-weight: 600;
+
+
 }
 .welcome-text #intro {
-    font-size: 28px;
-    font-weight: 300;
+    font-size: 24px;
+    font-weight: 500;
 }
+
+.intro-container {
+    display: flex;
+}
+.intro-container p {
+    margin-right: 0.333em;
+}
+.intro-container #rotating-text {
+    font-size: 1.5em;
+    font-weight: 700;
+    
+}
+
 .external-links{
-    padding: 24px 40px;
+    padding: 24px 32px;
+    
 }
-.external-links img {
-    max-width: 80px;
-    max-height: 80px;
+.external-links a {
+    padding-top: 64px;
     padding-right: 40px;
 }
+.external-links svg {
+    color: #d8a31a !important;
+}
+

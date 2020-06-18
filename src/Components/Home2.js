@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 var ReactRotatingText = require('react-rotating-text');
 
 
-export class Home extends Component {
+export class Home2 extends Component {
 
     render () {
       return (
@@ -26,13 +25,13 @@ export class Home extends Component {
                 </div>
                 <div className="external-links">
                     <a href="https://www.linkedin.com/in/reneelabutay">
-                        <FontAwesomeIcon icon={['fab', 'linkedin']} size='3x'/>
+                        <img src={require("../Images/icons/linkedin.png")} alt="linkedin"></img>
                     </a>
                     <a href="https://github.com/reneelabutay">
-                        <FontAwesomeIcon icon={['fab', 'github-square']} size='3x'/>
+                        <img src={require("../Images/icons/github.png")} alt="github"></img>
                     </a>
                     <a href='mailto: reneelabutay@ucsb.edu'>
-                        <FontAwesomeIcon icon="envelope-square" size='3x'/>
+                        <img src={require("../Images/icons/email.png")} alt="email"></img>
                     </a>
                 </div>
             </div>
@@ -42,4 +41,4 @@ export class Home extends Component {
       );
     }
   }
-  export default Home;
+  export default Home2;

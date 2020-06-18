@@ -7,7 +7,7 @@ export class AboutMe extends Component {
     render () {
       return (
         
-        
+        <div>About Me</div>
       );
     }
   }

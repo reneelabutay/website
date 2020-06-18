@@ -14,7 +14,14 @@
 }
 #resume-section-header {
     background-color: #dfe4e6;
+    /*text-decoration: underline;*/
+    
 }
+.section-header p {
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5px;
+}
+
 .resume-section-header h2{
     font-family: 'Libre Franklin';
     font-size: 18px;

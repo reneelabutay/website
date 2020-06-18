@@ -5,7 +5,7 @@ export class Footer extends Component {
         return(
             <div className='footer-container'>
                 <div>
-                    <p>&copy; 2020 Renee Labutay</p>
+                    <p>&copy; 2020 Renee Labutay. All Rights Reserved.</p>
                 </div>
                 <div className='contact-links'>
                     <a href='https://www.linkedin.com/in/reneelabutay'>LinkedIn</a>
