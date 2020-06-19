@@ -28,7 +28,6 @@ export class NavBar extends Component {
     this.setState({ width: window.innerWidth, height: window.innerHeight });
     this.burgerVisibility();
   }
-
   burgerVisibility() {
     if(this.state.width < 650) {
 			this.setState({

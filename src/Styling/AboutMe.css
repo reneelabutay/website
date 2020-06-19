@@ -18,3 +18,7 @@
 #about-me-section-spacer {
     background-color: #5c6170;
 }
+
+#about-me-section-header p {
+    border-bottom: 1px solid #2e3340;
+}
