@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Zoom from 'react-reveal/Zoom';
 
 export class AboutMe extends Component {
 
@@ -10,6 +11,7 @@ export class AboutMe extends Component {
                 <p>About Me</p>
           </div>
           <div className="about-container">
+            <Zoom>
             <div className="about-description">
               <p>
                 Welcome to my website! My name is Renee and I am a senior undergrad studying 
@@ -30,9 +32,8 @@ export class AboutMe extends Component {
                 and/or product management. 
               </p>
             </div>
+            </Zoom>
           </div>
-          
-
         </div>
       );
     }
