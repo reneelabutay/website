@@ -4,6 +4,7 @@
 #resume-section-spacer {
     display:flex;
 }
+
 .section-spacer-left {
     width: 50%;
     background: #e2e2db;
@@ -16,6 +17,9 @@
     background-color: #dfe4e6;
     /*text-decoration: underline;*/
     
+}
+#experience-section-spacer {
+    background-color: #97a1b0;
 }
 .section-header p {
     border-bottom: 1px solid #000;

@@ -24,11 +24,8 @@
   	justify-content: center; 
   	align-items: center;
 	height: 120px;
-	background: pink;
 	/*margin-bottom: 48px;*/
 	text-transform: uppercase;
-	/*border-top: 1px solid #dfdfe5;
-	border-bottom: 1px solid #dfdfe5;*/
 }
 .section-spacer {
 	height: 100px;
@@ -36,7 +33,7 @@
 
 .section-header p {
 	text-transform: uppercase;
-	font-weight:300;
+	font-weight: 500;
 	font-family: 'Libre Franklin';
 	letter-spacing: 2px;
 	font-size: 18px;

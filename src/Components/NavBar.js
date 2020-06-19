@@ -42,6 +42,7 @@ export class NavBar extends Component {
   }
 
   render () {
+    //not going to implement burger bar yet
     const showBurger = this.state.showBurger;
     let navlinks;
     if (showBurger) {
