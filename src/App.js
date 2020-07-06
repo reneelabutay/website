@@ -6,11 +6,13 @@ import './Styling/Projects.css';
 import './Styling/Resume.css';
 import './Styling/Footer.css';
 import './Styling/AboutMe.css';
+import './Styling/Experience.css';
 import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import Home from './Components/Home';
 import AboutMe from './Components/AboutMe';
-import Resume from './Components/Resume';
+/*import Resume from './Components/Resume';*/
+import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
@@ -35,11 +37,8 @@ export class App extends Component {
           <div className="about-me">
             <AboutMe/>
           </div>
-          <div className="resume" id="resume">
-            <Resume/>
-          </div>
-          <div className="projects" id="projects">
-            <Projects/>
+          <div className="experience" id="experience">
+            <Experience/>
           </div>
         </div>
         <div className="footer">

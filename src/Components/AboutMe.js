@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Zoom from 'react-reveal/Zoom';
 
 export class AboutMe extends Component {
-
     render () {
       return (
         <div className="about-me-page">
@@ -11,7 +10,7 @@ export class AboutMe extends Component {
                 <p>About Me</p>
           </div>
           <div className="about-container">
-            <Zoom>
+            <Zoom fraction='0.7'>
             <div className="about-description">
               <p>
                 Welcome to my website! My name is Renee and I am a senior undergrad studying 

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import BurgerMenu from './BurgerMenu';
 import NavLinks from './NavLinks';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { animateScroll as scroll, scroller } from 'react-scroll';
 
 export class NavBar extends Component {
   constructor(props) {
@@ -13,6 +13,7 @@ export class NavBar extends Component {
     }
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     this.burgerVisibility = this.burgerVisibility.bind(this);
+    this.scrollToTop = this.scrollToTop.bind(this);
   }
   showSettings (event) {
       event.preventDefault();
@@ -40,6 +41,12 @@ export class NavBar extends Component {
 		}
   }
 
+
+
+  scrollToTop() {
+      scroll.scrollToTop();
+  }
+
   render () {
     //not going to implement burger bar yet
     const showBurger = this.state.showBurger;
@@ -56,7 +63,13 @@ export class NavBar extends Component {
     return (
       <div className="header-bar">
         <div className="title">
-          <p>Renee Labutay</p>
+          <a onClick={this.scrollToTop}>
+            <img src={require("../Images/logo.png")} id="name-logo"></img>
+          </a>
+          
+        </div>
+        <div className="nav-center">
+           
         </div>
         <div className="navigation-menu">
           {navlinks}

@@ -6,7 +6,7 @@ class NavLinks extends Component {
     constructor(props) {
         super(props);
         this.scrollToTop = this.scrollToTop.bind(this);
-      }
+    }
 
     scrollToTop() {
         scroll.scrollToTop();
@@ -39,12 +39,10 @@ class NavLinks extends Component {
             <div>
                 <nav>
                     <ul className="nav-links">
-                        <li><a onClick={this.scrollToTop}>Home</a></li>
                         <li><a className="about-me-link" to="about-me-section-header" onClick={this.scrollToAboutMe}>About</a></li>
                         <li><a className="experience-link" to="experience-section-header" onClick={this.scrollToExperience}>Experience</a></li>
-                        <li><a href="https://docs.google.com/document/d/1oVQIX9M9sUgiY9tINFhgZ-vgE2iDG0FAiQSON26Zxuo//export?format=pdf&attachment=false" target="_blank">Resume</a></li>
-                        
                         <li><a className="project-link" to="project-section-header" onClick={this.scrollToProjects}>Projects</a></li>
+                        <li><a href="https://docs.google.com/document/d/1oVQIX9M9sUgiY9tINFhgZ-vgE2iDG0FAiQSON26Zxuo//export?format=pdf&attachment=false" target="_blank">Resume</a></li>
                     </ul>
                 </nav>
                 
