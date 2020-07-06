@@ -12,6 +12,8 @@ export class Home extends Component {
 
     render () {
       return (
+        <div>
+        <div className="home-spacer"></div>
         <div className="home-body">
             <div className="left-side">
                 <img src={require("../Images/self.png")} alt="self"></img>
@@ -42,6 +44,7 @@ export class Home extends Component {
                 </div>
             </div>
             
+        </div>
         </div>
         
       );

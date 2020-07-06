@@ -5,7 +5,7 @@ export class Experience extends Component {
 
     render () {
       return (
-        <div className="resume-page">
+        <div className="experience-page">
             <div className="section-spacer" id="experience-section-spacer">
             </div>
             <div className="section-header" id="resume-section-header">
@@ -14,9 +14,43 @@ export class Experience extends Component {
            <div className='section-content'>
                <Fade top cascade>
                    <ul className='experience-list'>
-                       <li>Experience 1</li>
-                       <li>Experience 2</li>
-                       <li>Experience 3</li>
+                       <li id="cress-health">
+                        <div className="experience-container">
+                          <div className="experience-image">Image </div>
+                          <div className="experience-text">
+                            <p className="experience-title">Software Engineer Intern</p>
+                            <p className="experience-company">Cress Health</p>
+                            <p className="experience-description">
+                              Building the peer support platform and updating features on the Cress mobile app.
+                            </p>
+                          </div>
+                        </div>
+                       </li>
+                       <li id="pacman-ai">
+                       <div className="experience-container">
+                          <div className="experience-image">Image </div>
+                          <div className="experience-text">
+                            <p className="experience-title">Student Engineer</p>
+                            <p className="experience-company">UCSB Enterprise Technology Services</p>
+                            <p className="experience-description">
+                              Enter Description here
+                            </p>
+                          </div>
+                        </div>
+
+                       </li>
+                       <li>
+                       <div className="experience-container">
+                          <div className="experience-image">Image </div>
+                          <div className="experience-text">
+                            <p className="experience-title">Student Engineer</p>
+                            <p className="experience-company">UCSB Enterprise Technology Services</p>
+                            <p className="experience-description">
+                              Enter Description here
+                            </p>
+                          </div>
+                        </div>
+                       </li>
                        <li>Experience 4</li>
                    </ul>
                </Fade>

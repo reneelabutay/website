@@ -2,7 +2,43 @@
     list-style: none;
 }
 .experience-list li {
-    border: 2px solid grey;
     margin: 24px;
-    height: 400px;
+    height: 380px;
+}
+.experience-container {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.experience-image {
+    width: 40%;
+}
+.experience-text {
+    width: 60%;
+}
+.experience-title{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 28px;
+}
+.experience-description {
+    margin-top: 20px;
+}
+.experience-company {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+/*BACKGROUND COLORS*/
+#cress-health {
+    background-color: rgba(235, 205, 195, 0.5);
+}
+
+#pacman-ai {
+    background-color: #dde5dc;
 }

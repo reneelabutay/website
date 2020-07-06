@@ -3,7 +3,6 @@ import './App.css';
 import './Styling/NavBar.css';
 import './Styling/Home.css';
 import './Styling/Projects.css';
-import './Styling/Resume.css';
 import './Styling/Footer.css';
 import './Styling/AboutMe.css';
 import './Styling/Experience.css';

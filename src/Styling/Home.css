@@ -1,8 +1,11 @@
+.home-spacer {
+    height: 100px;
+}
 .home-body {
     display: flex;
     /*justify-content: space-between;*/
     justify-content: center;
-    height: 878px;
+    height: 80vh;/*750px;*/
     align-content: stretch;
     color: white;
 }
