@@ -2,7 +2,7 @@
     display: flex;
     /*justify-content: space-between;*/
     justify-content: center;
-    height: 978px;
+    height: 878px;
     align-content: stretch;
     color: white;
 }
@@ -30,17 +30,18 @@
 .welcome-text {
     position: relative;
     padding: 0 64px 0 32px;
-    color: #d8a31a !important;
 }
 
 .welcome-text #hello {
     font-size: 95px;
-    font-family: 'Libre Franklin';
+    font-family: 'Source Sans Pro';
     font-weight: 600;
+    color: #264849 !important;
 }
 .welcome-text #intro {
     font-size:1.75em;
     font-weight: 500;
+    color: #264849;
 }
 
 .intro-container {
@@ -53,11 +54,11 @@
     font-size: 1.75em;
     font-weight: 700;
     height: 75px;    
+    color: #264849 !important;
 }
 
 .external-links{
     padding: 24px 32px;
-    
 }
 
 .external-links a {
@@ -65,7 +66,7 @@
     padding-right: 40px;
 }
 
-.external-links svg {
-    color: #d8a31a !important;
+.external-links svg path {
+    color: #264849;
 }
 

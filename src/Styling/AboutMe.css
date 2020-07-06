@@ -1,7 +1,4 @@
-.about-me-page {
-    background-color: #97a1b0;/*#2e3340;*/
-    color: #2e3340;
-}
+
 .about-container {
     display: flex;
     justify-content: center;
@@ -15,10 +12,7 @@
     text-align: justify;
 }
 
-#about-me-section-spacer {
-    background-color: #5c6170;
-    /*testing edit*/
-}
+
 
 #about-me-section-header p {
     border-bottom: 1px solid #2e3340;
