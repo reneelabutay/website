@@ -1,0 +1,65 @@
+.experience-list {
+    list-style: none;
+}
+.experience-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 36vh;
+    margin: 1em;
+    min-height: 300px;
+
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 60vw;
+
+    margin: 3em;
+}
+
+.experience-image {
+    width: 40%;
+}
+.experience-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+.experience-title{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: max(18px, 2.2vh);
+}
+.experience-company {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: max(18px, 1.5vh);
+}
+.experience-description {
+    height: 16vh;
+    margin-top: 2vh;
+    font-size: 0.95em;
+    overflow: scroll;
+}
+
+
+/*BACKGROUND COLORS FOR EACH EXPERIENCE*/
+#cress-health {
+    background-color: rgba(235, 205, 195, 0.3);
+}
+#ets {
+    background-color: rgba(221, 229, 220, 0.6);
+}
+#akpsi {
+    background-color: rgba(210, 207, 204, 0.5);
+}
+#bbvr {
+    background-color: rgba(235, 205, 195, 0.3);
+}

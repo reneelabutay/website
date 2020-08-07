@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import './App.css';
-import './Styling/NavBar.css';
-import './Styling/Home.css';
-import './Styling/Projects.css';
-import './Styling/Footer.css';
-import './Styling/AboutMe.css';
-import './Styling/Experience.css';
-import NavBar from './Components/NavBar';
-import Projects from './Components/Projects';
-import Home from './Components/Home';
-import AboutMe from './Components/AboutMe';
-/*import Resume from './Components/Resume';*/
-import Experience from './Components/Experience';
-import Footer from './Components/Footer';
+import './NavBar/NavBar.css';
+import './Home/Home.css';
+import './Projects/Projects.css';
+import './Footer/Footer.css';
+import './About/AboutMe.css';
+import './Experiences/Experience.css';
+import NavBar from './NavBar/NavBar';
+import Projects from './Projects/Projects';
+import Home from './Home/Home';
+import AboutMe from './About/AboutMe';
+import Experience from './Experiences/Experience';
+import Footer from './Footer/Footer';
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
