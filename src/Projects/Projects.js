@@ -5,55 +5,72 @@ export class Projects extends Component {
     render () {
       return (
         <div className="projects-page">
+            <div className="section-spacer" id="project-section-spacer">
+            </div>
             <div className="section-header" id="project-section-header">
                 <p className="project-header">Projects</p>
             </div>
             <div className="section-content" id="project-section-content">
             <div className="project-row">
                 <div className="project-item">
-                    <a href="https://github.com/reneelabutay/CS165_AI_Pacman">
-                        <img src="https://img.icons8.com/cotton/200/000000/pacman.png" alt="pacman"/>
-                    </a>
-                    <h3>Pacman AI</h3>
-                    <p>
-                        An application AI techniques. Implemented graph search 
-                        algorithms, reinforcement learning, and machine learning to 
-                        help the Pacman agent collect all the points while avoiding the 
-                        ghosts. 
-                    </p>
+                    <div className="project-media">
+                        <a href="">
+                            Image goes here
+                        </a> 
+                    </div>
+                    <div className="project-text">
+                        <h3>LIFT</h3>
+                        <p>
+                            Designing and developing a workout tracking mobile application and educates
+                            users how to maximize strength training results.
+                        </p>
+                    </div>
                 </div>
-                
                 <div className="project-item">
-                    <a href="https://github.com/reneelabutay/CS130a_prog1">
-                        <img src={require("../Images/ds.png")} alt="data structure"></img>
-                    </a> 
-                    <h3>Quash</h3>
-                    <p>
-                        Construction of a priority queue and hash table compound 
-                        data structure in C++ primarily used to store IP addresses. 
-                        Supported insert, delete, and lookup functions.
-                    </p>
+                    <div className="project-media">
+                        <a href="">
+                           Image goes here
+                        </a> 
+                    </div>
+                    <div className="project-text">
+                        <h3>Personalized Movie Gallery</h3>
+                        <p>
+                            Built a website that allows users to create their own movie gallery 
+                            and customized movie lists. Includes an integration of the OMDb API 
+                            and the D3 library to make an interactive visualization that models
+                            movie relations.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div className="project-row">
                 <div className="project-item">
-                    <a href="https://github.com/reneelabutay/CS165_AI_Pacman">
-                        <img src="https://img.icons8.com/cotton/200/000000/pacman.png" alt="pacman"/>
-                    </a>
-                    <h3>Single Cycle CPU</h3>
-                    <p>
-                        
-                    </p>
+                    <div className="project-media">
+                        <a href="">
+                            Image goes here
+                        </a> 
+                    </div>
+                    <div className="project-text">
+                        <h3>Single Cycle CPU</h3>
+                        <p>
+                            Implemented a 32-bit single cycle MIPS CPU using PyRTL.
+                        </p>
+                    </div>
                 </div>
-                
                 <div className="project-item">
-                    <a href="https://github.com/reneelabutay/CS130a_prog1">
-                        <img src={require("../Images/ds.png")} alt="data structure"></img>
-                    </a> 
-                    <h3>Portfolio Website</h3>
-                    <p>
-                        
-                    </p>
+                    <div className="project-media">
+                        <a href="https://github.com/reneelabutay/CS165_AI_Pacman">
+                            <img src="https://img.icons8.com/cotton/200/000000/pacman.png" alt="pacman"/>
+                        </a>
+                    </div>
+                    <div className="project-text">
+                        <h3>Pacman AI</h3>
+                        <p>
+                            Engineered AI-driven PacMan agents using machine learning, A* search, minimax
+                            with alpha-beta pruning, expectimax, and reinforcement learning models that
+                            assisted the agent in independently completing the game.
+                        </p>
+                    </div>
                 </div>
             </div>
             </div>

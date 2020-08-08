@@ -39,6 +39,9 @@ export class App extends Component {
           <div className="experience" id="experience">
             <Experience/>
           </div>
+          <div className="projects">
+            <Projects/>
+          </div>
         </div>
         <div className="footer">
           <Footer/>
