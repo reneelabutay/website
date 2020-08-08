@@ -16,20 +16,29 @@ export class Experience extends Component {
                    <ul className='experience-list'>
                        <li id="cress-health">
                         <div className="experience-container">
-                          <div className="experience-image">Image </div>
+                          <div className="experience-image">
+                            <a href="https://www.cresshealth.com/why" target="_blank" rel="noopener noreferrer">
+                              <img src={require("../Images/Experience/CressLogo.png")} alt="cress-logo"/>
+                            </a>
+                            
+                          </div>
                           <div className="experience-text">
                             <p className="experience-title">Software Engineer Intern</p>
                             <p className="experience-company">Cress Health</p>
                             <p className="experience-description">
                               I am building the Cress Brand Representative Web Portal with the Frontend Engineering team 
-                              and optimizing the peer support feature on the Cress mobile application.
+                              and optimizing the peer support feature on the Cress mobile application. 
                             </p>
                           </div>
                         </div>
                        </li>
                        <li id="ets">
                        <div className="experience-container">
-                          <div className="experience-image">Image </div>
+                          <div className="experience-image">
+                            <a href="https://www.it.ucsb.edu/campus-it-organizations-departments/enterprise-technology-services" target="_blank" rel="noopener noreferrer">
+                              <img src={require("../Images/Experience/ets-logo.png")} alt="ets-logo"/>
+                            </a>
+                          </div>
                           <div className="experience-text">
                             <p className="experience-title">Student Engineer</p>
                             <p className="experience-company">UCSB Enterprise Technology Services</p>
@@ -44,7 +53,11 @@ export class Experience extends Component {
                        </li>
                        <li id="akpsi">
                        <div className="experience-container">
-                          <div className="experience-image">Image </div>
+                          <div className="experience-image">
+                            <a href="https://www.ucsb-akpsi.com/" target="_blank" rel="noopener noreferrer">
+                              <img src={require("../Images/Experience/akpsi-logo.png")} alt="akpsi-logo"/>
+                            </a>
+                          </div>
                           <div className="experience-text">
                             <p className="experience-title">Vice President of Professional Affairs</p>
                             <p className="experience-company">Alpha Kappa Psi</p>
@@ -57,7 +70,9 @@ export class Experience extends Component {
                        </li>
                        <li id="bbvr">
                        <div className="experience-container">
-                          <div className="experience-image">Image </div>
+                          <div className="experience-image">
+                            <img src={require("../Images/Experience/bbvr-logo.png")} alt="bbvr-icon"/>
+                          </div>
                           <div className="experience-text">
                             <p className="experience-title">Undergraduate Research Assistant</p>
                             <p className="experience-company">UCSB Gevirtz School of Education</p>

@@ -32,10 +32,10 @@ export class Home extends Component {
                     
                 </div>
                 <div className="external-links">
-                    <a href="https://www.linkedin.com/in/reneelabutay">
+                    <a href="https://www.linkedin.com/in/reneelabutay" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'linkedin']} size='3x'/>
                     </a>
-                    <a href="https://github.com/reneelabutay">
+                    <a href="https://github.com/reneelabutay" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'github-square']} size='3x'/>
                     </a>
                     <a href='mailto: reneelabutay@ucsb.edu'>

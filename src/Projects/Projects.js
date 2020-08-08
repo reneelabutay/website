@@ -15,7 +15,7 @@ export class Projects extends Component {
                 <div className="project-item">
                     <div className="project-media">
                         <a href="">
-                            Image goes here
+                            <img src={require("../Images/PROGRESS.png")} style={{width: '250px'}} alt="in-progress"></img>
                         </a> 
                     </div>
                     <div className="project-text">
@@ -28,8 +28,8 @@ export class Projects extends Component {
                 </div>
                 <div className="project-item">
                     <div className="project-media">
-                        <a href="">
-                           Image goes here
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                           <img src={require("../Images/movie-gallery.png")} style={{width: '400px'}} alt="movie-gallery-display"></img>
                         </a> 
                     </div>
                     <div className="project-text">
@@ -46,8 +46,8 @@ export class Projects extends Component {
             <div className="project-row">
                 <div className="project-item">
                     <div className="project-media">
-                        <a href="">
-                            Image goes here
+                        <a href="https://github.com/reneelabutay/cs154_CPU" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/cotton/250/000000/smartphone-cpu.png" alt="cpu-img"/>
                         </a> 
                     </div>
                     <div className="project-text">
@@ -59,8 +59,8 @@ export class Projects extends Component {
                 </div>
                 <div className="project-item">
                     <div className="project-media">
-                        <a href="https://github.com/reneelabutay/CS165_AI_Pacman">
-                            <img src="https://img.icons8.com/cotton/200/000000/pacman.png" alt="pacman"/>
+                        <a href="https://github.com/reneelabutay/CS165_AI_Pacman" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/cotton/250/000000/pacman.png" alt="pacman-img"/>
                         </a>
                     </div>
                     <div className="project-text">

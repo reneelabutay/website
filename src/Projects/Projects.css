@@ -22,15 +22,19 @@
 	}
 }
 
+.project-media img:hover {
+	transform: scale(1.01);
+	opacity: 0.8;
+}
+
 
 /*Project Description*/
 .project-text{
-	height: 6em;
+	min-height: 6em;
 	margin-top: 2em;
 	padding: 0.7em;
 	background-color:white;
 }
-
 .project-text h3 {
 	font-family: 'Source Sans Pro';
 	font-size: 0.8em;
