@@ -28,7 +28,7 @@ export class Projects extends Component {
                 </div>
                 <div className="project-item">
                     <div className="project-media">
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://reneelabutay.github.io/react_portfolio/" target="_blank" rel="noopener noreferrer">
                            <img src={require("../Images/movie-gallery.png")} style={{width: '400px'}} alt="movie-gallery-display"></img>
                         </a> 
                     </div>
